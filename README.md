@@ -1,4 +1,3 @@
-Based on your **PAN Card Tampering Detection** project, you can use the following content for a GitHub README section:
 
 ## What the project does
 
