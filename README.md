@@ -54,6 +54,7 @@ jupyter notebook
    * Threshold image
    * Contour-highlighted regions
 
+
 ---
 
 ## Where users can get help with the project
@@ -89,6 +90,20 @@ To contribute:
 
 ---
 
+### Steps Involved in the Project:
+
+   * GET IMAGES FROM USER.
+   * CHECK FOR SIZE AND FORMAT OF THE IMAGE.
+   * CHANGE SHAPE AND SIZE OF IMAGE ACCORDING TO THE ORIGINAL IMAGE.
+   * CONVERT THE IMAGE TO GRAYSCALE.
+   * FIND THE SIMILARITY INDEX OF THE IMAGES.
+   * FINDING THE THRESHOLD OF THE IMAGE.
+   * FINDING CONTOUR AND GRAB THOSE CONTOUR USING IMUTILS.
+   * DRAW A BOUNDING RECTANGLE UNSING THESE CONTOURS.
+   * PLOT DIFFERENCE, THRESHOLD, ORIGINAL AND TAMPERED IMAGE.
+   * COMPARE ALL THE IMAGES AND CHECK THE SIMILARITY SCORE TO DECIDE TAMPERING.
+
+---
 ### Description
 
 > PAN Card Tampering Detection using Python, OpenCV, and SSIM to identify forged or altered PAN card images through image similarity analysis and contour detection.
